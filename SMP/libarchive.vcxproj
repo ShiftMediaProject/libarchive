@@ -102,6 +102,7 @@
     <ClCompile Include="..\libarchive\archive_read_support_filter_rpm.c" />
     <ClCompile Include="..\libarchive\archive_read_support_filter_uu.c" />
     <ClCompile Include="..\libarchive\archive_read_support_filter_xz.c" />
+    <ClCompile Include="..\libarchive\archive_read_support_filter_zstd.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_7zip.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_all.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_ar.c" />
@@ -139,6 +140,7 @@
     <ClCompile Include="..\libarchive\archive_write_add_filter_program.c" />
     <ClCompile Include="..\libarchive\archive_write_add_filter_uuencode.c" />
     <ClCompile Include="..\libarchive\archive_write_add_filter_xz.c" />
+    <ClCompile Include="..\libarchive\archive_write_add_filter_zstd.c" />
     <ClCompile Include="..\libarchive\archive_write_disk_posix.c" />
     <ClCompile Include="..\libarchive\archive_write_disk_set_standard_lookup.c" />
     <ClCompile Include="..\libarchive\archive_write_disk_windows.c" />

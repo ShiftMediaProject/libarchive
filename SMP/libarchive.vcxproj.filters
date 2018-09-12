@@ -366,6 +366,12 @@
     <ClCompile Include="..\libarchive\xxhash.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\libarchive\archive_read_support_filter_zstd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libarchive\archive_write_add_filter_zstd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\libarchive\archive.h">
