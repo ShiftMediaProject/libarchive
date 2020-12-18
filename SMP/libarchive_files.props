@@ -2,6 +2,8 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\libarchive\archive_acl.c" />
+    <ClCompile Include="..\libarchive\archive_blake2s_ref.c" />
+    <ClCompile Include="..\libarchive\archive_blake2sp_ref.c" />
     <ClCompile Include="..\libarchive\archive_check_magic.c" />
     <ClCompile Include="..\libarchive\archive_cmdline.c" />
     <ClCompile Include="..\libarchive\archive_cryptor.c" />
@@ -21,6 +23,7 @@
     <ClCompile Include="..\libarchive\archive_pack_dev.c" />
     <ClCompile Include="..\libarchive\archive_pathmatch.c" />
     <ClCompile Include="..\libarchive\archive_ppmd7.c" />
+    <ClCompile Include="..\libarchive\archive_ppmd8.c" />
     <ClCompile Include="..\libarchive\archive_random.c" />
     <ClCompile Include="..\libarchive\archive_rb.c" />
     <ClCompile Include="..\libarchive\archive_read.c" />
@@ -64,6 +67,7 @@
     <ClCompile Include="..\libarchive\archive_read_support_format_lha.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_mtree.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_rar.c" />
+    <ClCompile Include="..\libarchive\archive_read_support_format_rar5.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_raw.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_tar.c" />
     <ClCompile Include="..\libarchive\archive_read_support_format_warc.c" />
@@ -125,6 +129,8 @@
   <ItemGroup>
     <ClInclude Include="..\libarchive\archive.h" />
     <ClInclude Include="..\libarchive\archive_acl_private.h" />
+    <ClInclude Include="..\libarchive\archive_blake2.h" />
+    <ClInclude Include="..\libarchive\archive_blake2_impl.h" />
     <ClInclude Include="..\libarchive\archive_cmdline_private.h" />
     <ClInclude Include="..\libarchive\archive_crc32.h" />
     <ClInclude Include="..\libarchive\archive_cryptor_private.h" />
@@ -144,6 +150,7 @@
     <ClInclude Include="..\libarchive\archive_platform_acl.h" />
     <ClInclude Include="..\libarchive\archive_platform_xattr.h" />
     <ClInclude Include="..\libarchive\archive_ppmd7_private.h" />
+    <ClInclude Include="..\libarchive\archive_ppmd8_private.h" />
     <ClInclude Include="..\libarchive\archive_ppmd_private.h" />
     <ClInclude Include="..\libarchive\archive_private.h" />
     <ClInclude Include="..\libarchive\archive_random_private.h" />
